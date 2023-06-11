@@ -29,6 +29,11 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
+            <div>
+              <p className="text-center text-white-100 text-[16px] pl-1 tracking-wider mb-5 py-5 mt-[4rem]">
+                © 2023 Wave Software Company. Todos os direitos reservados.
+              </p>
+            </div>
         </div>
       </BrowserRouter>
     </>
