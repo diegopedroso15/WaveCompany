@@ -42,11 +42,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3x1 leadeing-[30px]"
+        className="mt-4 mb-[2.5rem] text-secondary text-[17px] max-w-3x1 leadeing-[30px]"
       >
-        blablablab lablablabl ablablabla blablabla blablab labla blablabla
-        blablabla blablab lablab lablabl ablab lablab lablabl ablab lablab
-        lablabl ablab lablab lablabl ablab lablab lablabl ablab
+        Somos uma consultoria de TI renomada e especializada em software, focada em fornecer soluções personalizadas e desenvolvimento de software sob medida. Com uma equipe altamente qualificada e um histórico comprovado de satisfação do cliente, nos dedicamos a entender as necessidades únicas de cada negócio, entregando soluções de TI de alta qualidade que impulsionam o crescimento e o sucesso dos nossos clientes. Nos orgulhamos de nossa reputação de confiança e profissionalismo, sempre buscando superar as expectativas.
       </motion.p>
 
       <div className="mt-2 flex flex-wrap gap-10">

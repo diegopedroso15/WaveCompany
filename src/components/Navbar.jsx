@@ -25,7 +25,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Wave &nbsp;
-            <span className="sm:block hidden">|  Software Company</span>
+            <span className="sm:block hidden">| Software Company</span>
           </p>
         </Link>
         <ul className="list-non hidden sm:flex flex-row gap-10">
@@ -37,10 +37,16 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={link.link ? `${link.link}` : `#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
+
+        <div className="bg-green-300 px-4 py-2 text-black rounded-2xl ml-7">
+          <a href="https://wa.me/5516994580303?text=Olá%20Wave%20Software%20Company,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20prestados." target="_blank">
+            <button>Fale Conosco</button>
+          </a>
+        </div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -68,7 +74,7 @@ const Navbar = () => {
                   setActive(link.title);
                 }}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={link.link ? `${link.link}` : `#${link.id}`}>{link.title}</a>
               </li>
             ))}
           </ul>

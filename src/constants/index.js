@@ -41,25 +41,26 @@ import {
     {
       id: "budget",
       title: "Orçamento",
+      link: "https://wa.me/5516994580303?text=Olá%20Wave%20Software%20Company,%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20prestados."
     },
   ];
   
   const services = [
     {
-      title: "Aplicações Web",
-      icon: web,
+      title: "E-commerce e Landing Pages",
+      icon: creator,
     },
     {
       title: "Aplicações Mobile",
       icon: mobile,
     },
     {
-      title: "Tecnologias 3D",
-      icon: backend,
+      title: "Aplicações Web",
+      icon: web,
     },
     {
-      title: "E-commerce e Landing Pages",
-      icon: creator,
+      title: "Tecnologias 3D",
+      icon: backend,
     },
   ];
   
@@ -116,47 +117,43 @@ import {
   
   const experiences = [
     {
-      title: "React.js",
-      company_name: "UX",
+      title: "Desenvolvimento de Software Sob Medida",
+      company_name: "",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "ponto 1",
-      "ponto 2" 
+        "Nós criamos soluções de software sob medida para atender às necessidades específicas do seu negócio. Nosso time de desenvolvedores talentosos utiliza as mais recentes tecnologias para construir sistemas eficientes e robustos que alavancam sua produtividade e eficiência operacional.", 
          ],
     },
     {
-      title: "React Native",
-      company_name: "bla",
+      title: "Soluções Personalizadas de TI",
+      company_name: "",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "ponto 1",
-      "ponto 2" 
+        "Nossa expertise em TI nos permite oferecer soluções personalizadas que se alinham perfeitamente com seus objetivos de negócio. Compreendemos que cada empresa é única, por isso trabalhamos de perto com você para entender seus desafios e fornecer soluções que se adequam perfeitamente às suas necessidades." 
         ],
     },
     {
-      title: "Web",
-      company_name: "bla",
+      title: "Consultoria em TI",
+      company_name: "",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "ponto 1",
-      "ponto 2" 
+        "Oferecemos consultoria especializada em TI para ajudar sua empresa a navegar pelo cenário tecnológico em constante evolução. Nossos consultores têm uma vasta experiência na indústria e estão prontos para aconselhá-lo sobre como melhor utilizar a tecnologia para atingir seus objetivos de negócio." 
         ],
     },
     {
-      title: "Mobile",
-      company_name: "bla",
+      title: "Suporte Técnico e Manutenção",
+      company_name: "",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-      "ponto 1",
-      "ponto 2"  
+      "Nós fornecemos suporte técnico e serviços de manutenção para garantir que seus sistemas estejam sempre operando com máximo desempenho. Nossa equipe de suporte está sempre pronta para resolver quaisquer problemas que possam surgir, minimizando o tempo de inatividade e garantindo a continuidade dos negócios." 
       ],
     },
   ];
@@ -190,16 +187,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Aluguel de carros",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Plataforma baseada na Web que permite aos usuários pesquisar, reservar e gerenciar aluguel de carros de vários fornecedores, fornecendo uma solução conveniente e eficiente para as necessidades de transporte.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
@@ -211,16 +208,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Buscador de empregos",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Uma plataforma de busca de empregos que permite aos usuários pesquisar e candidatar-se a empregos, e aos empregadores postar vagas e gerenciar candidaturas.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react-native",
           color: "green-text-gradient",
         },
         {
@@ -232,16 +229,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Guia de viagens",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Uma plataforma de busca de empregos que permite aos usuários pesquisar e candidatar-se a empregos, e aos empregadores postar vagas e gerenciar candidaturas.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react",
           color: "green-text-gradient",
         },
         {

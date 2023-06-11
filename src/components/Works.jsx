@@ -50,15 +50,15 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Nosso clientes</p>
-        <h2 className={styles.sectionHeadText}>Satisfeitos</h2>
+        <p className={styles.sectionSubText}>Portifílio</p>
+        <h2 className={styles.sectionHeadText}>Nosso clientes</h2>
       </motion.div>
 
       <div className="w-full flex">
           <motion.p variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-              Esses projetos foram desenvolvidos para nosso clientes... blablabla
+              Confira nossos projetos de destaque, que refletem nossa habilidade em criar soluções de TI personalizadas e sob medida para diversas indústrias. Cada projeto representa uma história de sucesso, mostrando nosso compromisso com a excelência e inovação. Explore e descubra como podemos impulsionar o crescimento do seu negócio.
           </motion.p>
       </div>
 
